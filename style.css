@@ -68,7 +68,47 @@ header nav ul li a {
 
 }
 
-.banner .paragrafo {}
+.container {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 90%;
+    height: 400px;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(88, 14, 85);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.image {
+    margin: auto;
+}
+
+.image img {
+    width: 150px;
+}
+
+.descricao {
+    margin: 10px;
+}
+
+.avaliacao {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+
+}
+
+.avaliacao h6 {
+    padding-left: 10px;
+}
+
+.titulo .banner .paragrafo {}
 
 @media only screen and (min-width: 440px) {
     nav {
@@ -80,27 +120,6 @@ header nav ul li a {
     header nav ul li a {
         font-size: 0.9rem;
     }
-}
-
-.container {
-    margin: auto;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    background-color: yellowgreen;
-}
-
-.card {
-    width: 90%;
-    height: 400px;
-    margin: auto;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 8px;
-}
-
-.image img {
-    width: 100px;
 }
 
 @media only screen and (min-width: 540px) {
