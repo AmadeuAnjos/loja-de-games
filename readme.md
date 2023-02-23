@@ -3,8 +3,13 @@ Página para cadastro de cliente, podemos fazer a vizualização dos clientes ca
 
 
 ## Objetivos
+- [X] Criar menu superior.
+- [X] Criar Banner superior.
+- [X] Criar card de produto.
 - [] 
 - [] 
+- [] 
+
 ## Extras
 
 - [] Tema Dark.

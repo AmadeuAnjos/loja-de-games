@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Shantell+Sans:wght@300&display=swap');
 
-
-/*
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Shantell Sans', cursive;
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -76,21 +70,22 @@ header nav ul li a {
 }
 
 .card {
+    margin-top: 15px;
     width: 90%;
-    height: 400px;
+    height: 470px;
     display: inline-flex;
     flex-direction: column;
-    background-color: rgb(88, 14, 85);
+    background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .image {
-    margin: auto;
+    margin: 20px auto;
 }
 
 .image img {
-    width: 150px;
+    width: 160px;
 }
 
 .descricao {
@@ -101,11 +96,77 @@ header nav ul li a {
     display: flex;
     padding-left: 10px;
     align-items: center;
-
 }
 
 .avaliacao h6 {
-    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.depreciado {
+    height: 20px;
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.depreciado p {
+    margin-left: 10px;
+}
+
+#depreciado {
+    text-decoration: line-through;
+}
+
+#desconto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    background-color: #006373;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.preco {
+    margin-top: 17px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.condicao {
+    height: 40px;
+    margin-top: 17px;
+}
+
+.condicao h6 {
+    margin-left: 10px;
+    font-size: 1.0rem;
+    color: gray;
+}
+
+button {
+    margin: auto;
+    width: 120px;
+    color: #e23a3a;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+button:hover {
+    border: 1px solid white;
+}
+
+button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+        -4px -4px 12px #ffffff;
 }
 
 .titulo .banner .paragrafo {}
