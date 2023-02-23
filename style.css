@@ -72,7 +72,7 @@ header nav ul li a {
 .card {
     margin-top: 15px;
     width: 90%;
-    height: 470px;
+    height: 530px;
     display: inline-flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
@@ -149,50 +149,31 @@ header nav ul li a {
     color: gray;
 }
 
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 button {
-    margin: auto;
-    width: 120px;
-    color: #e23a3a;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-    transition: all .3s;
-    box-shadow: 6px 6px 12px #c5c5c5,
-        -6px -6px 12px #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    background-color: #006373;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 button:hover {
-    border: 1px solid white;
-}
-
-button:active {
-    box-shadow: 4px 4px 12px #c5c5c5,
-        -4px -4px 12px #ffffff;
-}
-
-.titulo .banner .paragrafo {}
-
-@media only screen and (min-width: 440px) {
-    nav {
-        width: 90%;
-        display: inline-flex;
-        justify-content: space-around;
-    }
-
-    header nav ul li a {
-        font-size: 0.9rem;
-    }
-}
-
-@media only screen and (min-width: 540px) {
-    nav {
-        width: 90%;
-        display: inline-flex;
-        justify-content: space-around;
-    }
-
-    header nav ul li a {
-        font-size: 1.0rem;
-    }
+    box-shadow: #006373 0px 0px 0px 2px, #006373 0px 4px 4px -1px, #006373 0px 1px 0px inset;
+    color: white;
 }
 
 @media only screen and (min-width: 700px) {
