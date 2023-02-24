@@ -184,8 +184,42 @@ button:hover {
 }
 
 footer {
-    background-color: yellowgreen;
+    background-color: rgb(104, 50, 205);
     height: 300px;
+}
+
+.container-abaixo {
+    width: 100%;
+    background-color: rgb(7, 112, 161);
+}
+
+.banner-abaixo {
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.pops {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pop1,
+.pop2,
+.pop3,
+.pop4 {
+    background-color: white;
+    margin: 10px;
 }
 
 @media only screen and (min-width: 500px) {
