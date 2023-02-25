@@ -5,10 +5,10 @@ Página para cadastro de cliente, podemos fazer a vizualização dos clientes ca
 ## Objetivos
 - [X] Criar menu superior.
 - [X] Criar Banner superior.
-- [X] Criar card de produto.
-- [] 
-- [] 
-- [] 
+- [X] Criar cards de produto.
+- [X] Criar banner inferior. 
+- [X] Criar pops chamativos. 
+- [X] Criar rodapé.
 
 ## Extras
 
