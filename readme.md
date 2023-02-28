@@ -12,6 +12,10 @@ Página para cadastro de cliente, podemos fazer a vizualização dos clientes ca
 - [X] Criar banner inferior. 
 - [X] Criar pops chamativos. 
 - [X] Criar rodapé.
+- [] Criar página Home.
+- [] Criar página ps5.
+- [] Criar página xbox s.
+- [] Criar página contato.
 
 ## Extras
 
