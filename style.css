@@ -3,6 +3,8 @@
 :root {
     --cor-primary: #006373;
     --cor-second: #148fa1;
+    --cor-ps5-blue: #0048E5;
+    --cor-xbox-green: #0F7C0F;
 }
 
 * {
@@ -181,13 +183,34 @@ button {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
+    background-color: var(--cor-primary);
 }
 
 button:hover {
-    box-shadow: var(--cor-primary) 0px 0px 0px 2px, var(--cor-primary) 0px 4px 4px -1px, var(--cor-primary) 0px 1px 0px inset;
-    color: white;
+    background-color: white;
+    color: var(--cor-primary);
+    border: 1px solid var(--cor-primary);
 }
 
+button.blue {
+    background-color: var(--cor-ps5-blue);
+}
+
+.blue:hover {
+    border: 1px solid var(--cor-ps5-blue);
+    background-color: white;
+    color: var(--cor-ps5-blue);
+}
+
+button.green {
+    background-color: var(--cor-xbox-green);
+}
+
+.green:hover {
+    border: 1px solid var(--cor-xbox-green);
+    background-color: white;
+    color: var(--cor-xbox-green);
+}
 
 .container-abaixo {
     width: 100%;
