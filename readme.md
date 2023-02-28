@@ -16,6 +16,8 @@ Página para cadastro de cliente, podemos fazer a vizualização dos clientes ca
 - [X] Criar página ps5.
 - [X] Criar página xbox s.
 - [X] Criar página contato.
+- [X] Criar links para icones.
+
 
 ## Extras
 
