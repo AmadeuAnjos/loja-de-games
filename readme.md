@@ -17,6 +17,9 @@ Página para cadastro de cliente, podemos fazer a vizualização dos clientes ca
 - [X] Criar página xbox s.
 - [X] Criar página contato.
 - [X] Criar links para icones.
+- [X] Criar links para icones.
+- [X] Criar banner superior.
+- [X] Criar banner inferior.
 
 
 ## Extras
